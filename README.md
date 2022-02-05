@@ -1,37 +1,12 @@
-## Welcome to GitHub Pages
+# Homework Check System
+## 家庭作业检查系统
+### "To design a Homework Check System which can file students' homework for later use and which is convenient for management, can reduce work to some degree and can finish the task efficiently. "  —— RYCBStudio
+#### "设计一个作业检查系统，可以将学生的作业归档备查，便于管理，可以在一定程度上减少工作量，有效地完成任务。"  —— RYCB工作室
+**This is a Python project. To see Java edtion, goto [this][this]**
 
-You can use the [editor on GitHub](https://github.com/QYF-RYCBStudio/vip.rycb.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+*这是一个Python项目。要看Java版，转到*[这个][this]
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+*Copyright (c) 2022 RYCBStudio, All Rights Reserved.*
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/QYF-RYCBStudio/vip.rycb.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+[this]:https://github.com/RYCBStudio/HCS
