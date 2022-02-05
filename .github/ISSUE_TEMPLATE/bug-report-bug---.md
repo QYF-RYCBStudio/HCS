@@ -1,38 +1,32 @@
 ---
 name: Bug report/Bug 报告
 about: Create a report to help us improve / 创建一份报告来帮助我们改进
-title: ''
+title: 'Bug 报告'
 labels: ''
 assignees: ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
-
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
-
-**Expected behavior**
-A clear and concise description of what you expected to happen.
-
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
-
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
-
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
-
-**Additional context**
-Add any other context about the problem here.
+**描述错误**
+对错误的清晰而简洁的描述。
+**繁殖**
+复制行为的步骤：
+1.去“…”
+2.点击“…”
+3.向下滚动至“…”
+4.见错误
+**预期行为**
+对你期望发生的事情进行清晰而简洁的描述。
+**截图**
+如果适用，添加屏幕截图以帮助解释您的问题。
+**桌面（请填写以下信息）：**
+-操作系统：[例如iOS]
+-浏览器[例如chrome、safari]
+-版本[例如22]
+**智能手机（请填写以下信息）：**
+-设备：[例如iPhone 6]
+-OS:[例如iOS8.1]
+-浏览器[例如股票浏览器、safari]
+-版本[例如22]
+**附加上下文**
+在此处添加有关该问题的任何其他上下文。
