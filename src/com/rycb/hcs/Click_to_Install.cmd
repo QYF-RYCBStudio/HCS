@@ -1,4 +1,5 @@
 @rem 点击即可安装
+@rem 语言：中文
 
 @echo off
 chcp 65001
