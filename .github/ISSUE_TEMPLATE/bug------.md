@@ -1,6 +1,6 @@
 ---
-name: ''
-about: ''
+name: Bug报告(默认)
+about: 请填写...
 title: ''
 labels: ''
 assignees: ''
