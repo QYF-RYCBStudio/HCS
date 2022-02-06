@@ -1,6 +1,6 @@
 ---
-name: ''
-about: ''
+name: 'Bug报告'
+about: '创建一份报告来帮助我们改进'
 title: ''
 labels: ''
 assignees: ''
