@@ -1,0 +1,18 @@
+[2022-02-08 21:12:23] [CLIENT/INFO] Program entry found.
+[2022-02-08 21:12:23] [CLIENT/INFO] Main class loading: successful.
+[2022-02-08 21:12:23] [CLIENT/INFO] ShowTipBox showed: type number:001, state: successful.
+[2022-02-08 21:12:23] [CLIENT/INFO] ShowTipBox showed: type number:002, state: successful.
+[2022-02-08 21:12:23] [CLIENT/INFO] ShowIssueFeedbackBox showed: type number:003, state: successful.
+[2022-02-08 21:12:23] [CLIENT/INFO] Set variable: name: _return0, var number: 001, state: successful.
+[2022-02-08 21:12:23] [CLIENT/INFO] ShowChoiceBox showed: type number:004, state: successful.
+[2022-02-08 21:12:23] [CLIENT/INFO] Reassignment variable: name: _return0, Reassignment content: [string]'zh-CN', var number: 001, state: successful.
+[2022-02-08 21:12:23] [CLIENT/INFO] Prepare to loading resources. progress: 0%
+[2022-02-08 21:12:23] [CLIENT/INFO] Prepare to loading resources. progress: 10%
+[2022-02-08 21:12:23] [CLIENT/INFO] Prepare to loading resources. progress: 25%
+[2022-02-08 21:12:23] [CLIENT/INFO] Prepare to loading resources. progress: 30%
+[2022-02-08 21:12:23] [CLIENT/INFO] Prepare to loading resources. progress: 45%
+[2022-02-08 21:12:23] [CLIENT/INFO] Prepare to loading resources. progress: 60%
+[2022-02-08 21:12:23] [CLIENT/INFO] Prepare to loading resources. progress: 75%
+[2022-02-08 21:12:23] [CLIENT/INFO] Prepare to loading resources. progress: 95%
+[2022-02-08 21:12:23] [CLIENT/INFO] Prepare to loading resources. progress: 100%
+[2022-02-08 21:12:23] [CLIENT/INFO] Prepare to loading resources. state: successful.
