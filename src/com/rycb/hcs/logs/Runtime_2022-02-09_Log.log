@@ -1,0 +1,223 @@
+[2022-02-09 19:27:17] [Client/INFO] Program entry found.
+[2022-02-09 19:27:17] [Client/INFO] Main class loading: successful.
+[2022-02-09 19:27:17] [Client/INFO] ShowTipBox showed: type number:001, state: successful.
+[2022-02-09 19:27:17] [Client/INFO] ShowTipBox showed: type number:002, state: successful.
+[2022-02-09 19:27:17] [Client/INFO] ShowIssueFeedbackBox showed: type number:003, state: successful.
+[2022-02-09 19:27:17] [Client/INFO] Set variable: name: _return0, var number: 001, state: successful.
+[2022-02-09 19:27:17] [Client/INFO] ShowChoiceBox showed: type number:004, state: successful.
+[2022-02-09 19:27:17] [Client/INFO] Reassignment variable: name: _return0, Reassignment content: [string]'zh-CN', var number: 001, state: successful.
+[2022-02-09 19:27:17] [Client/INFO] Prepare to loading resources. progress: 0%
+[2022-02-09 19:27:17] [Client/INFO] Prepare to loading resources. progress: 10%
+[2022-02-09 19:27:17] [Client/INFO] Prepare to loading resources. progress: 25%
+[2022-02-09 19:27:17] [Client/INFO] Prepare to loading resources. progress: 30%
+[2022-02-09 19:27:17] [Client/INFO] Prepare to loading resources. progress: 45%
+[2022-02-09 19:27:17] [Client/INFO] Prepare to loading resources. progress: 60%
+[2022-02-09 19:27:17] [Client/INFO] Prepare to loading resources. progress: 75%
+[2022-02-09 19:27:17] [Client/INFO] Prepare to loading resources. progress: 95%
+[2022-02-09 19:27:17] [Client/INFO] Prepare to loading resources. progress: 100%
+[2022-02-09 19:27:17] [Client/INFO] Prepare to loading resources. state: successful.
+[2022-02-09 19:27:17] [Client/INFO] Has entered the simplified Chinese environment.
+[2022-02-09 19:27:17] [Client/INFO] Language pack loaded successfully.
+[2022-02-09 19:27:17] [Client/INFO] Initializing...
+[2022-02-09 19:27:17] [Client/INFO] Loading resources...
+[2022-02-09 19:27:17] [Client/INFO] Evoke progress bar module
+[2022-02-09 19:27:17] [Client/INFO] The progress bar module has been evoked.
+[2022-02-09 19:27:17] [Client/INFO] The progress bar has been evoked.
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 0%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 1%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 2%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 3%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 4%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 5%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 6%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 7%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 8%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 9%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 10%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 11%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 12%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 13%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 14%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 15%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 16%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 17%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 18%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 19%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 20%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 21%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 22%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 23%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 24%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 25%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 26%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 27%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 28%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 29%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 30%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 31%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 32%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 33%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 34%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 35%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 36%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 37%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 38%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 39%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 40%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 41%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 42%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 43%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 44%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 45%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 46%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 47%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 48%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 49%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 50%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 51%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 52%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 53%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 54%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 55%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 56%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 57%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 58%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 59%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 60%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 61%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 62%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 63%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 64%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 65%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 66%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 67%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 68%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 69%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 70%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 71%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 72%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 73%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 74%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 75%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 76%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 77%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 78%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 79%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 80%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 81%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 82%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 83%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 84%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 85%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 86%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 87%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 88%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 89%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 90%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 91%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 92%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 93%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 94%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 95%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 96%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 97%
+[2022-02-09 19:27:17] [Client/INFO] Loading resources: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Faipiped to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
+[2022-02-09 19:27:17] [Client/ERROR] Error: Failed to loading resources, reloading: 98%
