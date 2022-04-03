@@ -7,7 +7,6 @@
 # Do not change the code without special needs
 
 import configparser
-import datetime
 import time as t
 import datetime as dt
 
