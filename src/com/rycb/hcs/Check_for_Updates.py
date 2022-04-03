@@ -14,9 +14,9 @@ import webbrowser as wb
 cfps = ConfigParser()
 
 
-def checkingUpdates(serverName=None):
+def checkingUpdates(serverName):
     cfps.read("update\\version_check\\update.ucf")
-    ur.urlretrieve("https://raw.githubusercontent.com/QYF-RYCBStudio/HCS/main/Update.ucf", "version")
+    ur.urlretrieve("{}/Update.ucf".format(serverName), "version")
     humanReadableVersion = cfps.get("Version", "version")
     machineReadableVersion = cfps.get("programSelfCheck", "version")
     with open("version", "r") as v:
@@ -39,4 +39,4 @@ def checkingUpdates(serverName=None):
                 pass
 
 if __name__ == "__main__":
-    checkingUpdates()
+    checkingUpdates("https://raw.githubusercontent.com/QYF-RYCBStudio/HCS/main/")
