@@ -7,6 +7,7 @@
 # Do not change the code without special needs
 
 import configparser
+import datetime
 import time as t
 import datetime as dt
 
@@ -19,7 +20,9 @@ Dt = dt.datetime.now()
 
 class Main:
     def __str__(self):
+        main.log("Loading resources...", "INFO", "Client")
         t.sleep(0.5)
+        main.log("Start to load resources...", "INFO", "Client")
         with tqdm(total=500) as p_bar:
             for i in range(500):
                 t.sleep(0.01)
@@ -36,12 +39,14 @@ class Main:
                 t.sleep(0.01)
                 p_bar.update(1)
                 p_bar.set_description("Try")
-                main.log("Loading resources: {}%".format(i), "INFO", "Client")
-            print("Error: trying to reload...")
-            for j in range(100):
-                print("Repairing: {}%".format(i))
-                main.log("Error: Failed to loading resources, reloading: {}%".format(i), "ERROR", "Client")
+            t.sleep(0.5)
+            print("\nError: trying to reload...")
+            t.sleep(0.5)
+            for j in range(51):
+                print("Reloading: {}%".format(j*2))
+                main.log("Error: Failed to loading resources, repairing: {}%".format(j*2), "ERROR", "Client")
                 t.sleep(0.025)
+            t.sleep(0.5)
         main.__str__()
         main.progress_bar()
 
@@ -104,7 +109,7 @@ if __name__ == "__main__":
         file.write("")
     Main().log("Program entry found.", "INFO", "Client")
     main = Main()
-    main.log("Main class loading: successful.", "INFO", "Client")
+    main.log("The Main class loading: successful.", "INFO", "Client")
     eg.msgbox("若出现穿模、加载不全等问题，请停止程序后重启！\n\n若出現穿模、加載不全等問題，請停止程式後重啓！", "提示")
     main.log("ShowTipBox showed: type number:001, state: successful.", "INFO", "Client")
     eg.msgbox("英语外其他语言可能有汉化不全等问题，请忽视或报告！\n\n英語外其他語言可能有漢化不全等問題，請忽視或報告！", "提示")
@@ -164,17 +169,25 @@ if __name__ == "__main__":
         print("初始化中...", end="\n")
         main.log("Initializing...", "INFO", "Client")
         try:
+            main.log("Starting up...", "INFO", "Client")
             main.startUp()
+            main.log("Start up successfully.", "INFO", "Client")
             print("程序初始化成功。", end="\n")
-        except:
+        except Exception as e:
+            main.log("Warn: The program failed to load, please restart!", "WARN", "Client")
+            main.log("Show warning box: at"+Dt.strftime("%Y-%m-%d %H:%M:%S"),"INFO", "Client")
             eg.msgbox("⚠警告⚠: 程序未能成功加载，请重启！")
     elif _return0 == "zh-TW&zh-HK":
         print("語言包已成功加載。", end="\n")
         print("初始化中...", end="\n")
         try:
+            main.log("Starting up...", "INFO", "Client")
             main.startUp()
+            main.log("Start up successfully.", "INFO", "Client")
             print("程式初始化成功。", end="\n")
         except:
+            main.log("Warn: The program failed to load, please restart!", "WARN", "Client")
+            main.log("Show warning box: at" + Dt.strftime("%Y-%m-%d %H:%M:%S"), "INFO", "Client")
             eg.msgbox("⚠警告⚠: 程式未能成功加載，請重啓！")
     else:
         print("Language pack has benn loaded successfully.", end="\n")
@@ -183,4 +196,6 @@ if __name__ == "__main__":
             main.startUp()
             print("Program initialization succeeded.", end="\n")
         except:
+            main.log("Warn: The program failed to load, please restart!", "WARN", "Client")
+            main.log("Show warning box: at" + Dt.strftime("%Y-%m-%d %H:%M:%S"), "INFO", "Client")
             eg.msgbox("⚠WARNING⚠: The program failed to load successfully, please restart!")
