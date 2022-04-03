@@ -38,5 +38,6 @@ def checkingUpdates(serverName):
             else:
                 pass
 
+
 if __name__ == "__main__":
     checkingUpdates("https://raw.githubusercontent.com/QYF-RYCBStudio/HCS/main/")

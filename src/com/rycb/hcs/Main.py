@@ -7,8 +7,8 @@
 # Do not change the code without special needs
 
 import configparser
-import time as t
 import datetime as dt
+import time as t
 
 import easygui as eg
 from tqdm import tqdm
@@ -42,8 +42,8 @@ class Main:
             print("\nError: trying to reload...")
             t.sleep(0.5)
             for j in range(51):
-                print("Reloading: {}%".format(j*2))
-                main.log("Error: Failed to loading resources, repairing: {}%".format(j*2), "ERROR", "Client")
+                print("Reloading: {}%".format(j * 2))
+                main.log("Error: Failed to loading resources, repairing: {}%".format(j * 2), "ERROR", "Client")
                 t.sleep(0.025)
             t.sleep(0.5)
         main.__str__()
@@ -74,9 +74,11 @@ class Main:
             if data is not None:
                 if type is not None and port is not None:
                     if fmt == "A" or fmt == "a" or fmt == 0 or fmt is None:
-                        file.write("[" + Dt.strftime("%Y-%m-%d %H:%M:%S") + "] [{}/{}] ".format(port, type) + str(data) + "\n")
+                        file.write(
+                            "[" + Dt.strftime("%Y-%m-%d %H:%M:%S") + "] [{}/{}] ".format(port, type) + str(data) + "\n")
                     elif fmt == "LA" or fmt == "la" or fmt == "L" or fmt == "l" or fmt == 1:
-                        file.write("[" + Dt.strftime("%Y-%m-%d %H:%M") + "] [{}/{}] ".format(port, type) + str(data) + "\n")
+                        file.write(
+                            "[" + Dt.strftime("%Y-%m-%d %H:%M") + "] [{}/{}] ".format(port, type) + str(data) + "\n")
                     elif fmt == "S" or fmt == "s" or fmt == 2:  # Not commonly used
                         file.write("[" + Dt.strftime("%Y-%m-%d") + "] [{}/{}] ".format(port, type) + str(data) + "\n")
                     else:
@@ -100,7 +102,8 @@ class Main:
 
     @staticmethod
     def main():
-        pass
+        # 欢迎界面
+
 
 
 if __name__ == "__main__":
@@ -172,9 +175,10 @@ if __name__ == "__main__":
             main.startUp()
             main.log("Start up successfully.", "INFO", "Client")
             print("程序初始化成功。", end="\n")
+            main.main()
         except Exception as e:
             main.log("Warn: The program failed to load, please restart!", "WARN", "Client")
-            main.log("Show warning box: at"+Dt.strftime("%Y-%m-%d %H:%M:%S"),"INFO", "Client")
+            main.log("Show warning box: on" + Dt.strftime("%Y-%m-%d %H:%M:%S"), "INFO", "Client")
             eg.msgbox("⚠警告⚠: 程序未能成功加载，请重启！")
     elif _return0 == "zh-TW&zh-HK":
         print("語言包已成功加載。", end="\n")
@@ -184,6 +188,7 @@ if __name__ == "__main__":
             main.startUp()
             main.log("Start up successfully.", "INFO", "Client")
             print("程式初始化成功。", end="\n")
+            main.main()
         except:
             main.log("Warn: The program failed to load, please restart!", "WARN", "Client")
             main.log("Show warning box: at" + Dt.strftime("%Y-%m-%d %H:%M:%S"), "INFO", "Client")
@@ -193,7 +198,10 @@ if __name__ == "__main__":
         print("Initializing...")
         try:
             main.startUp()
+            main.log("Starting up...", "INFO", "Client")
             print("Program initialization succeeded.", end="\n")
+            main.log("Start up successfully.", "INFO", "Client")
+            main.main()
         except:
             main.log("Warn: The program failed to load, please restart!", "WARN", "Client")
             main.log("Show warning box: at" + Dt.strftime("%Y-%m-%d %H:%M:%S"), "INFO", "Client")
