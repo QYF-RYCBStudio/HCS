@@ -103,6 +103,7 @@ class Main:
     @staticmethod
     def main():
         # 欢迎界面
+        pass
 
 
 
