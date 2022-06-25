@@ -39,16 +39,29 @@ def isTeacher(ref):
         return False
 
 
-def multenterbox(msgs="请输入{}账号与密码：", user_type="教师", title="信息", fields=["账号", "密码"], values=[]):
+def multenterbox(msgs="请输入{}账号与密码：（未注册的自动注册）", user_type="教师", title="信息", fields=["账号", "密码"], values=[]):
     msgs = msgs.format(user_type)
-    ret = easygui.multenterbox(msgs, title, fields, values)
+    ret = easygui.multpasswordbox(msgs, title, fields, values)
     return ret
 
 
-def saveInfo(data, location, file, mode="aw+", status=True):
+def saveInfo(data, location, file, mode="a+", status=True):
     try:
         with open((location + file), mode) as f:
             f.write(data)
-        return True
+    except:
+        status = False
+    return status
+
+
+def isSimilar(location, file, searchStr):
+    try:
+        with open((location + file), "r+") as f:
+            res = f.read().split("\n")
+        for i in res:
+            if i.__eq__(searchStr):
+                return True
+            else:
+                return False
     except:
         return False
