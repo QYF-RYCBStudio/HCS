@@ -15,6 +15,7 @@ import util
 def main():
     choice = ["学生模式", "教师模式", "管理员模式"]
     eg_res = eg.choicebox("请选择模式：", "提示", choice, 0)
+    eg_res_ = []
     eg_res_name = ""
     eg_res_pwd = ""
     if eg_res != choice[0]:
@@ -42,7 +43,12 @@ def main():
         pass
     else:
         exit(0xFFFFFF)
-    util.saveInfo("["+eg_res_name+"|"+eg_res_pwd+"]", ".\\", "users.info")
+    if not util.isSimilar(".\\", "users.info", str(eg_res_)):
+        eg.msgbox("账户已保存！", "提示")
+        if not util.saveInfo(str(eg_res_)+"\n", ".\\", "users.info"):
+            eg.msgbox("错误：保存用户信息失败，请重试！", "错误")
+            return
+
 
 
 if __name__ == "__main__":
