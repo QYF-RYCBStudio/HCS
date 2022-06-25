@@ -43,3 +43,12 @@ def multenterbox(msgs="请输入{}账号与密码：", user_type="教师", title
     msgs = msgs.format(user_type)
     ret = easygui.multenterbox(msgs, title, fields, values)
     return ret
+
+
+def saveInfo(data, location, file, mode="aw+", status=True):
+    try:
+        with open((location + file), mode) as f:
+            f.write(data)
+        return True
+    except:
+        return False
