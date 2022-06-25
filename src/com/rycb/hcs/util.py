@@ -39,6 +39,7 @@ def isTeacher(ref):
         return False
 
 
-def multenterbox(msgs = "请输入教师账号与密码：", title = "信息", fields = ["账号", "密码"], values = []):
+def multenterbox(msgs="请输入{}账号与密码：", user_type="教师", title="信息", fields=["账号", "密码"], values=[]):
+    msgs = msgs.format(user_type)
     ret = easygui.multenterbox(msgs, title, fields, values)
     return ret
