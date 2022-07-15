@@ -1,1 +1,7 @@
-0.0.1
+[Program]
+version = 0.0.1-a
+patchLevel = a
+#PatchLevel: 0-Small function update; 1-Medium function update; 2-Large function update; 3-Major updates; 4-Small function fix; 
+#            5-Medium function fix; 6-Large function fix; 7-Major function repair; 8-LTS Version end-of-life force update; 9-Bug fix; 
+#            a-Pre-release version Alpha; b-Pre-release version beta; d-Developer version; p-Public beta; r-Release
+patchName = rhp20220715_0x40E
