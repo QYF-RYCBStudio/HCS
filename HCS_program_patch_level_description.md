@@ -27,7 +27,7 @@ English\]
 
 2: End of life: EOL, refers to no longer supported ([more information][mi_2])
 
-3: The `developer` version will not appear in the [*`release`*][r], but will be submitted to the [*`develop`*][d] branch.
+3: The developer version will not appear in the [*`release`*][r], but will be submitted to the [*`develop`*][d] branch.
 
 [mi_1]:https://blog.csdn.net/qq_36761831/article/details/83188138
 [mi_2]:https://blog.csdn.net/cunjiu9486/article/details/109077766
